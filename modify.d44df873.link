@@ -1,0 +1,43 @@
+{
+ "signatures": [
+  {
+   "keyid": "d44df873c5264dbbd8dd38029d80f892dd132fd64be37fde52083c44117a7a2a",
+   "sig": "05dc90910981337582ee00b9f4d497ce449328f09506ca374e1b8b078877dfb44fecd3a8767333ead6cfbd6ce2d72983df73979ba6d98e835f4d78557aeeb156b6f59b720b548011b721c6e260967a80d1fddf60cd6d038d3287665dd4ac75b39b5d0c2c5415ac877add825b83e0f98b821056827d09936a443e9bbe25d1208abe339c32998605021d2a7a1f42ab195f906d428e020c0579f47f5fae7e5525b58bec3983fcd727eaec5b2b83b47f42aecd23e3d1dfa3798b8254f713b335948cd9de118c1f94df3447eba713a1ecc90c422850a4b7e16ca9c97a1fb0aa73377f11ab85c9fc72e58ba6036ce3640cd6bc79fec961f8c437fc68c09a707cf2cd9b8aad1bc489c8247c8c68223ef84d7a566f39470fce7c3067caef0d2b7e2d40634a91caef48c4547459d860b98fe2da97987b4a2ba4b65d041b5012442573aedd29c01bac9630315068baad57171dbc0658d4fee94ff676bc4f2166fed635a30e43482fbc339d7c9a2fa5448da69d0cf01af290ae01886e0ebbf0a047bb6f9c7a"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {},
+  "command": [],
+  "environment": {},
+  "materials": {
+   "asylo-hello-world/hello_world/BUILD": {
+    "sha256": "8426f49f022a62927ae482ce64f2ae32fa3f9741b234043e93b7d4419f2ce5a6"
+   },
+   "asylo-hello-world/hello_world/hello.proto": {
+    "sha256": "dd12674cf018963b957af7b8b5b802f834ea369d7c8c584fd0c81fa442e2180e"
+   },
+   "asylo-hello-world/hello_world/hello_driver.cc": {
+    "sha256": "0dca6d3a5d0c49012ddd97e2e483a5f466fc327ae8d7f4c7c7ac56f30fdf220c"
+   },
+   "asylo-hello-world/hello_world/hello_enclave.cc": {
+    "sha256": "affc8b112e83f8fcdf62ec5869a91a6fe100adc09a0f4815a9e2291bafe35907"
+   }
+  },
+  "name": "modify",
+  "products": {
+   "asylo-hello-world/hello_world/BUILD": {
+    "sha256": "8426f49f022a62927ae482ce64f2ae32fa3f9741b234043e93b7d4419f2ce5a6"
+   },
+   "asylo-hello-world/hello_world/hello.proto": {
+    "sha256": "dd12674cf018963b957af7b8b5b802f834ea369d7c8c584fd0c81fa442e2180e"
+   },
+   "asylo-hello-world/hello_world/hello_driver.cc": {
+    "sha256": "0dca6d3a5d0c49012ddd97e2e483a5f466fc327ae8d7f4c7c7ac56f30fdf220c"
+   },
+   "asylo-hello-world/hello_world/hello_enclave.cc": {
+    "sha256": "e94f3c8cac60acd49833374e8c3b81aa88803520bab511bee126506ffae1778b"
+   }
+  }
+ }
+}
