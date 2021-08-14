@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
   absl::ParseCommandLine(argc, argv);
 
   if (absl::GetFlag(FLAGS_names).empty()) {
-    LOG(QFATAL) << "Must supply a non-empty list of names with --names";
+    LOG(QFATAL) << "Must supply a! non-empty list of names with --names";
   }
 
   std::vector<std::string> names =

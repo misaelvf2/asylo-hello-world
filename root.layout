@@ -1,0 +1,215 @@
+{
+ "signatures": [
+  {
+   "keyid": "7232443f87028832a6ce3807240e657c4b66160a0843ebcce528cbaaff09eee5",
+   "sig": "27c4dc189195e3a548aa3dcee7669d2b964062f3963c1648b5aac2fc38dc8e5124f19b519ba36cdf1770daf6c57b422eb976b24bedddcb4524a9512c65255619ebcf1b13173bfa544db3ed0a8d006293e05f615c18e8ccf514cc3aa9551043010085ceabc431901559c42c47a661aba90b7eaa52f9698292b8afdf435fa0f77348557d39d80cd513a9ac4f4fe463d403579b6347619bbe20618670acd948b487619094535bf36a49abc2e28e55ceb83f6b08cc323235eacb9d24af977b96a75344b0b859e755c2cf9efe07db80be084fd0eb7ebcbff48cac9ecf794cc486922af2fc86c8f530de3322cbe9dcedd5676dd21f6bb1b67ae317a55036d23e0fcf274cc31ee79e77a1b02b4b37bc5089fc1a38c015d0d216241ea0b01b75e35bdab23552e42c2045007d952a3ff22ca0e5365c74ac5c8d90c5b1fa7097f1d24afc15f1bd13dc7ea2f96d3d6b9e27e15127aa6eba73a846f20fbc0ef4bcc468adf3ef9f9f7726a39a7b790d11ba3c9fd431151a55ede896509a003d0570b0b9bd98d2"
+  }
+ ],
+ "signed": {
+  "_type": "layout",
+  "expires": "2021-12-14T01:42:18Z",
+  "inspect": [
+   {
+    "_type": "inspection",
+    "expected_materials": [
+     [
+      "MATCH",
+      "asylo-hello-world.tar.gz",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "package"
+     ]
+    ],
+    "expected_products": [
+     [
+      "MATCH",
+      "asylo-hello-world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "modify"
+     ]
+    ],
+    "name": "untar",
+    "run": [
+     "tar",
+     "xzf",
+     "asylo-hello-world.tar.gz"
+    ]
+   }
+  ],
+  "keys": {
+   "8a819348a759106b2605932f56162df17a2352304903e7055b1ecc1c57326da7": {
+    "keyid": "8a819348a759106b2605932f56162df17a2352304903e7055b1ecc1c57326da7",
+    "keyid_hash_algorithms": [
+     "sha256",
+     "sha512"
+    ],
+    "keytype": "rsa",
+    "keyval": {
+     "private": "",
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA3ahS94/pk/hqa9/escyV\nCyhfnFYMp0TXbuKOR8fMBEx6BoWGlawcvkeDH148THKOtdAGxYrlooH4il6WDJAr\nD4bhTe10g2hqXDO61BpRe2Iqs9GEhtuxDXEC00aLGypjQW0VWX7alYFYvuADlxS2\nezm2J2WyMUKcsLiYRJQ0rs9Ey8DzsWoAGB5HEOH5ZtWh6yCrOlET7ozbDz5SjQ6I\nUerD1psHZp7p6ZRI1lRJnwLYZgMVZsJNAZ2AND6Qk8QpykqWGNn+met9y8f5xsex\nAN7rr7bVXTtaSuQMNxqZLomMBNm+UMSPHTDo2sqVfyjDM+cVJxxsEsL20P9n8Dyp\n6qpQj0cjxSKo1E4LYWwQBGd8cMjeQcLhweNo0qFrOZVJfADJhXrh4W+23/Ijn0sC\nmYKtgzPGxx1R17xyua+0an8bAHkSTE4V/EoJSChE39Vv6tFZlXKXccbalgJTXg+5\nJeHMRgFNVeyVYkGvsMKK/DRTDzdpKHkGu6XO9xMiOYFvAgMBAAE=\n-----END PUBLIC KEY-----"
+    },
+    "scheme": "rsassa-pss-sha256"
+   },
+   "b443074ea288cdfa46b91ae1909ef3d773001fd458a0f4b9088fb6288f772230": {
+    "keyid": "b443074ea288cdfa46b91ae1909ef3d773001fd458a0f4b9088fb6288f772230",
+    "keyid_hash_algorithms": [
+     "sha256",
+     "sha512"
+    ],
+    "keytype": "rsa",
+    "keyval": {
+     "private": "",
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAwZuttY3TLIEhrxwLYEm+\nupx4qPwq6Y5Y0615FBMwQ7scWEr/+362wVh1k2eP3+j7mPN07+Qz0bpwUgxil1+b\niu03FZdiAjQ3y1bflcspNxRNxUgoTrLpXNlxxzAuHw0ba+3n8wc/pAR+fjJ/0g+K\n9cP9a2QZ1zhiehDqcrofodt+Mqlo0JToPbV+k1u55KvrT1BuGnXfmZAidGQfK906\nrY6pzbNv2Ho11L83cX0ZnILbMeh3/R1JLLALreXVRZZiK+3AjezDIU8PeuOXUlCr\ntK4brrJNR9WNVaF4hJnTZh+jWagNt+PAvlsezmz6jHq7KjIMTEBMSe5aYZQQmZmL\nvAyxhK7+Sr6RB51Y2DWD7vrkll77qW2veAZBtT1hNvNLrn5YMWESmeHb8iCzxWca\nHI368Y1F6rktIw3nzf4k/BJZfoiN0zN5Gbivux1u/9t8jxQQexTMko1khKKX5ysg\n5zCUKm9q12YiyjQSRw/l663GZXxQBx/WggNL15xf2Ax5AgMBAAE=\n-----END PUBLIC KEY-----"
+    },
+    "scheme": "rsassa-pss-sha256"
+   }
+  },
+  "readme": "",
+  "steps": [
+   {
+    "_type": "step",
+    "expected_command": [
+     "git",
+     "clone",
+     "https://github.com/misaelvf2/asylo-hello-world.git"
+    ],
+    "expected_materials": [],
+    "expected_products": [
+     [
+      "CREATE",
+      "asylo-hello-world/BUILD"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/hello_driver.cc"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/hello_enclave.cc"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/hello.proto"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/Dockerfile.kaniko"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/Dockerfile"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "clone",
+    "pubkeys": [
+     "8a819348a759106b2605932f56162df17a2352304903e7055b1ecc1c57326da7"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [],
+    "expected_materials": [
+     [
+      "MATCH",
+      "asylo-hello-world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "clone"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "ALLOW",
+      "asylo-hello-world/BUILD"
+     ],
+     [
+      "ALLOW",
+      "asylo-hello-world/hello_driver.cc"
+     ],
+     [
+      "ALLOW",
+      "asylo-hello-world/hello_enclave.cc"
+     ],
+     [
+      "ALLOW",
+      "asylo-hello-world/hello.proto"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "modify",
+    "pubkeys": [
+     "8a819348a759106b2605932f56162df17a2352304903e7055b1ecc1c57326da7"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [
+     "executor",
+     "--skip-tls-verify",
+     "--dockerfile=Dockerfile",
+     "--destination=misaelvf2/cloud-sec",
+     "--context=/workspace/docker-source/hybrid",
+     "--build-arg=BASE=alpine:3"
+    ],
+    "expected_materials": [
+     [
+      "MATCH",
+      "asylo-hello-world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "modify"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "build_and_push",
+    "pubkeys": [
+     "b443074ea288cdfa46b91ae1909ef3d773001fd458a0f4b9088fb6288f772230"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [
+     "tar",
+     "--exclude",
+     ".git",
+     "-zcvf",
+     "asylo-hello-world.tar.gz",
+     "asylo-hello-world"
+    ],
+    "expected_materials": [],
+    "expected_products": [],
+    "name": "package",
+    "pubkeys": [],
+    "threshold": 1
+   }
+  ]
+ }
+}
