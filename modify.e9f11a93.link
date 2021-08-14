@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "e9f11a933f12964b8f6d015f8527afc45455b227b55f74094ee177e3e136b6f8",
-   "sig": "af62628a1e64bf9f43d4f2c7d6e2a11113d621a19e5f1077de399bc085a934b610f0990842b321117e27635e9c5036d3dfcff42775ae6a3ed847e0ab2437f8daf748817ff92d21cc92d9d586883990dde81cd40cd688f4310bdbeb38ae476c7adff425c351455c9600ecee3ecb3ef96022b95de35b9aa3ab3262da39aed611ddc53ade94d22a6900226e1879bbaba067db5ddf9d92edc46e1aac703b2424db6a79d2140d14f415b5bb40f33b8470d4ec75c89279af30a3cf3bc355ab613ad6a34f1c8fffc9950f6fb7e440af04eaff028e92adf45ddb2d183cbd5ee3324a76a4a20513eab9b4f2c7ff1416b662da782bd4e842de9dde64abaded9b5f9f19f920bd45de7e832fa41fc69af34c9cb8f5db8d7a4210e053cd50d6c4c66c632ab0b7723a73bcfc36021f9e7947b72ca228ac4dd09a332ddc1794747c8bc04c4b87458104c39caab4bce310b632e98be1794e6f437451e387fc102584b71fbadf9d3a290200566ca0ec6a12bdb30248b04376a0b8dadb07e58b49abc15003485c21c5"
+   "sig": "02d031586829b0dae605abd86ffb21151de977f358516fdd61a4b7cdaf777a24cc7ab263f9cacdaab37bc0fc1cf89936d681cc726ebe057b13389f2b21eabbeafc2c2680dc2ded0f43cd8eca588d995fdfb024476717c4da5af977501b41cdc4d089af7912cdcb8eb506af2e9fed91e8815bb74f06d835e8e03a317fcb7d45ee113df945775afa83e6363163e7e1f13e8cdfb96ea09899c569fb8e6736cbe08141cb848bf960dd32ec910b431c46f05805d749f0dd385ebdf7df50e7a7d67279a9eed4f206398278b2af2641025ae464ea37fa339b8217ca3bc37aed5b4d89486eaf70b69a7bbad7d534c6154317b21b89deaaae914e4f391ddf33d6fa721fb737824833abdd2d35ba063f6e6693531c9566b2f7a0eb4932650a501d689958b813cfbf9cc8d0875316d3ccaf1497539d0bbe44b1a5b43819246ebbff182717592c32eff711997efe33bfbb32ebae55f76718c4e05124a28f05bcb9a90c878420e1a62b367c82593e6b611640ae79d240c07a2a8a6d7e119c768f682d64302472"
   }
  ],
  "signed": {
@@ -10,8 +10,34 @@
   "byproducts": {},
   "command": [],
   "environment": {},
-  "materials": {},
+  "materials": {
+   "asylo-hello-world/hello_world/BUILD": {
+    "sha256": "8426f49f022a62927ae482ce64f2ae32fa3f9741b234043e93b7d4419f2ce5a6"
+   },
+   "asylo-hello-world/hello_world/hello.proto": {
+    "sha256": "dd12674cf018963b957af7b8b5b802f834ea369d7c8c584fd0c81fa442e2180e"
+   },
+   "asylo-hello-world/hello_world/hello_driver.cc": {
+    "sha256": "0dca6d3a5d0c49012ddd97e2e483a5f466fc327ae8d7f4c7c7ac56f30fdf220c"
+   },
+   "asylo-hello-world/hello_world/hello_enclave.cc": {
+    "sha256": "affc8b112e83f8fcdf62ec5869a91a6fe100adc09a0f4815a9e2291bafe35907"
+   }
+  },
   "name": "modify",
-  "products": {}
+  "products": {
+   "asylo-hello-world/hello_world/BUILD": {
+    "sha256": "8426f49f022a62927ae482ce64f2ae32fa3f9741b234043e93b7d4419f2ce5a6"
+   },
+   "asylo-hello-world/hello_world/hello.proto": {
+    "sha256": "dd12674cf018963b957af7b8b5b802f834ea369d7c8c584fd0c81fa442e2180e"
+   },
+   "asylo-hello-world/hello_world/hello_driver.cc": {
+    "sha256": "0dca6d3a5d0c49012ddd97e2e483a5f466fc327ae8d7f4c7c7ac56f30fdf220c"
+   },
+   "asylo-hello-world/hello_world/hello_enclave.cc": {
+    "sha256": "e94f3c8cac60acd49833374e8c3b81aa88803520bab511bee126506ffae1778b"
+   }
+  }
  }
 }
