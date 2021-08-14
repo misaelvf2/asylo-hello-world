@@ -82,6 +82,7 @@ step_build_and_push.add_product_rule_from_string("DISALLOW *")
 
 # Build and push will package source code into tar file.
 step_package = Step(name="package")
+step_package.pubkeys = [build_and_push_pubkey["keyid"]]
 
 step_package.set_expected_command_from_string(
     "tar --exclude '.git' -zcvf asylo-hello-world.tar.gz asylo-hello-world")
