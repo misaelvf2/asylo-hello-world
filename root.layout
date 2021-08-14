@@ -1,13 +1,13 @@
 {
  "signatures": [
   {
-   "keyid": "40dbb689bfbb2333ee497d7a6230caffe2217b65c8686501e027569b15a6494f",
-   "sig": "24980555470cfd340e398ea025f43b5262934872e0a4d9f28660ac93c42aa58bc16ccf40b03b18c3dceed4c08caa99f0191415260d1b5d152c47eea5e9c3face72522085b4372a80aa604d245239888e39d2be374dded9ac4136f739b12540665c45c43d2935ec62e4ed2b43e6e3772cd51f8bd936596a05c1c8edaa92075fc7e0062d713c7cb4ce06fd6a0b855577177e63565533e41da4f5eab74cb5566f0d68f1dc7c18926a86efb77905becfb06d43a82394b2f9b3b588195b0ba3650b5ea8d4ee760de6d9726db0e3c3f9bb6a78d96faa65c70500520dace4e8e9ac000a1c18c2896b9d6de75e8eb8387800d763097a94f0cfb624319a238f816ea6865669c743b8d56e3c35cd4cca664f7f16fe5d6d8dff4efadc426e3da024685a8ca21df3ae1d4fb7f8cf3e3f617ae755d2d88a1af6aad7289db5044e0722e7fa368f2a43af86af0a0106722f436bd6f9cb46e9b94eecba23e25347b8861eea083cf29de9abd5697f5d8862eb004d04b200b39df955e285e77fb2d5544da73e9164d9"
+   "keyid": "c669ce3198454dacdf026ee6b8bb165d36984611335f3888fd82ac9a36b24d9d",
+   "sig": "1b828c3446fbd3ab049f253dfe2a823e553162df8730735e55cc2d954bc528c4d824ab53ef7565e09cd23b97c89ea3f2a3683f9e51e69dd7adfdb658acd80ed6267f081d2fd53bf60ea9e916bdbc05420d8ca62190007f180f57f76d2ec6f6a9766dc09eb7a22f1847637872cf1aa9ed69ed970eed35eb4b2703b882e8dd40ed147309b96b531758a9f89f43809d4b95db5c5c75002c27c8280db892016ff0daa14af54a0223002766cfc5c485be5c759d70b253a0e0ea07dd11f144a39cbaeafde5ce8b27a009ddd02daa1f6e783185c9cad7c2796c899fb199e3d4131b47afc448a7b7d0083de3bab9f53a0bbc88f92b4f81da233f951840d7fc3328f34db9c74cbba45a8fc7c0785947f58e8171d9c9be3c76806ff5706a72bc8a6c0da94c0cebd1c72e3ca74ffd3579cc56634c8318ca263e13cd6aea81fe802bd5670286fee646cd7531e20e99d03246c2c3881cc49afc65212f43ee93c8be29ee917aafafcdabe6b0fb257be13e286ef9c0cff30d49ede181b9885d6ad3e0e9e0f32c8d"
   }
  ],
  "signed": {
   "_type": "layout",
-  "expires": "2021-12-14T04:32:14Z",
+  "expires": "2021-12-14T04:45:55Z",
   "inspect": [
    {
     "_type": "inspection",
@@ -24,7 +24,7 @@
     "expected_products": [
      [
       "MATCH",
-      "asylo-hello-world/*",
+      "asylo-hello-world/hello_world/*",
       "WITH",
       "PRODUCTS",
       "FROM",
@@ -40,8 +40,8 @@
    }
   ],
   "keys": {
-   "38b49183b9a499a5e31f09fbe989ff5fc598d0c0041a02965bd0e515ca3ec9a1": {
-    "keyid": "38b49183b9a499a5e31f09fbe989ff5fc598d0c0041a02965bd0e515ca3ec9a1",
+   "def9261ba14509c324570ce35d6f590729af9355f5d72c80598bb2076f632706": {
+    "keyid": "def9261ba14509c324570ce35d6f590729af9355f5d72c80598bb2076f632706",
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
@@ -49,12 +49,12 @@
     "keytype": "rsa",
     "keyval": {
      "private": "",
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAskpoHPJWTegcPeQP2gVu\n464wpkSvxEAjSux3kaEMnugl/Uto632pQFB6LL6T2RDKJ66OZu/6UkHnZVC17FWn\nr2jXRApgUpMeHcfbqkW75tsSZA6TSm8tCHT/gw6K7qsCylt5wENfhpBms7lrN0u+\nVdxAVG1eNDGx6X9w9I/xiUC6gdHi7jNcoa3R7xGA4gWGb0AaSceo0NgrCqimApA2\nbD/XKMyFsj1w9VB+G+PeXj2Yc0pIxqlBvcJJrCI879V3uE4cYI216oK/p+RMxrc3\nD+hdYfYSyOFa0yqEWzD4gQhCvN4OXt267+2jNpLsu0chcMG4DwFTrARUMbREGjHM\noXQ95xUbZxQE8M0W52IdZu0rYa3gLF7OQD3BmDKhHMYJuDLiqk51Vx5nZsUHN3tx\nYJsKm1uiBzKd2xJHz15dhYY5kriFK2QWX4JdyiHU5HzWKpPGn5EOsQqO1QK1T9kU\nsN2iv6aPQFO4Kd9jtgWsCmtoU6sywCPwYTzOH3eL0uEfAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAs6ldI6O5xVFpsfttv5Ma\ncOmYKMmWbWv7nihD9LGJTt0+DpmywGnG7VSnWjBCs3MMeqkcI+e+dhYd/UM2ZlgM\nPE1FR6ADqj01eKTgggZG7xK9rxajXkFTAA4WzX+1D/3YUtRqbG+q+Bsy9GMa5AWz\nKGBZirismDywUa4Kafc+3bQfLgBmkbtqIIaj10aYboA65pBcuIYH6UCFtO0PKICt\nhNVw89vGzBXDFx/rs7NqSvJM2P8oAEui1ChP65l77hvJiO6bLHTXNm2n5XkvL1Wt\nEPZKu1rITNj2E1vVV8ZHjQrLJ54MfuX2nz2nyNgie44FoRc2GlkNcRktwP69X2nt\nwAK5mg43HsmKO1RJIw83VZePGyLET44U3ZnLOUEa1SHkJucvrvGf5nxtDi2yuBJY\nhKwV1B+hdLfs+dYLJSUHS1mUV3SN0/gkpISE0I4/sVkkQ4I+Yrdqurk8UNWCRiy/\nb0O66I+7W3IFKOe2V0BM4E25vMge5nvbGt5FEDlzAkIZAgMBAAE=\n-----END PUBLIC KEY-----"
     },
     "scheme": "rsassa-pss-sha256"
    },
-   "f30540982dd9651f633fa15758d40b6d0612eb44063d2cc9bc4f8a37182c5334": {
-    "keyid": "f30540982dd9651f633fa15758d40b6d0612eb44063d2cc9bc4f8a37182c5334",
+   "e9f11a933f12964b8f6d015f8527afc45455b227b55f74094ee177e3e136b6f8": {
+    "keyid": "e9f11a933f12964b8f6d015f8527afc45455b227b55f74094ee177e3e136b6f8",
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
@@ -62,7 +62,7 @@
     "keytype": "rsa",
     "keyval": {
      "private": "",
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAw/xF6vFUX0YgEnHKwHEh\nsMybEWp3pfvKS5TRvW20e7cDzXJjwaNxQGJOmXdyJXVcB92xaVpUo7cDyYv7Q74C\nI+PRSVSSbo2UK9MF9kmkdk3riX/q37zp2mKbGufMcSRE3G5UZoomUuLA3ervrVx+\nDEPJaBF6VaWTfYBdAoItgMYRsE2HAui3JsiR0hYa4xJpYfoWWfPS5kbSpJd+XGJa\nIH73gBz86ULEKS46dGFosDhXWhiWJ1JBOh4SMOoYjzBKmffB75nfF03z4ZlRioR6\nMSmRsnE+MvyLym+P9v3q7M6HqQ37aOw81rjKuShG0coHEOcsX+3diawLhbbChjBM\nR19v+yeg33vdNrhKsYX41hnwGDd5hbTaqRs8D/r0AQCYdkJK4lCRs/F3KrBjM5U7\ne4DVvyWAEkEziLoPFAA1HrOW360Y3mWx8ctrgHZl03pvNdq+MuAVYGXZ9uQ0zypQ\nfnXxS2ZV4yIqYBW8dqcXDAMmnSGDTV6ArI+UKt3nCBxhAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAyLX2CeJVIS+LOPQxNHdz\nIqJeWqvfHt0e6PP8dbXvXddHhKQAVwr51P6v9IQivk92+3Pifjj94YUIoOJmYMel\nRLhKihY5gWOmIJNgYNU9bzpovNZYzgV12dsB9UTJLrWL3qzV75DaYnBCt7RRscz2\nojbhd6y9ab4l1m3GfHYB+KfZDOlH1C4AkkEcKUn70SCqyTNw5TI0eLwmDnfD58NF\nF4IS5ZlNtMsAaFzkmFBym6Lgjf/v8uGmKLOOfb+BVwLcqF2CegOUYa35NzuWKbHi\n3XVc+/6Wx41qjtuVcYIPENrkl5USaB5f9e5MabaswP5cyJ27cdrKyJkNmR83p6cq\n3fbiZeulnGUrX39LLl5maFk0tS27hOkeRcBkG4aQXFLgDRPWKAKomgTS0qwS5Bpq\na/7eUW3EbRtOE2GJFWRZcx9ngtjwND3cbus6tfR78Kn3L6ypm0/PmenCuQP868ES\nyPNsdfRfcUvP/C/eUIcu7W7lvU8iOpMms5LcE6wE6c8pAgMBAAE=\n-----END PUBLIC KEY-----"
     },
     "scheme": "rsassa-pss-sha256"
    }
@@ -80,12 +80,28 @@
     "expected_products": [
      [
       "CREATE",
-      "asylo-hello-world/*"
+      "asylo-hello-world/hello_world/BUILD"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/hello_world/hello_driver.cc"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/hello_world/hello_enclave.cc"
+     ],
+     [
+      "CREATE",
+      "asylo-hello-world/hello_world/hello.proto"
+     ],
+     [
+      "DISALLOW",
+      "*"
      ]
     ],
     "name": "clone",
     "pubkeys": [
-     "f30540982dd9651f633fa15758d40b6d0612eb44063d2cc9bc4f8a37182c5334"
+     "e9f11a933f12964b8f6d015f8527afc45455b227b55f74094ee177e3e136b6f8"
     ],
     "threshold": 1
    },
@@ -95,7 +111,7 @@
     "expected_materials": [
      [
       "MATCH",
-      "asylo-hello-world/*",
+      "asylo-hello-world/hello_world/*",
       "WITH",
       "PRODUCTS",
       "FROM",
@@ -109,19 +125,19 @@
     "expected_products": [
      [
       "ALLOW",
-      "asylo-hello-world/BUILD"
+      "asylo-hello-world/hello_world/BUILD"
      ],
      [
       "ALLOW",
-      "asylo-hello-world/hello_driver.cc"
+      "asylo-hello-world/hello_world/hello_driver.cc"
      ],
      [
       "ALLOW",
-      "asylo-hello-world/hello_enclave.cc"
+      "asylo-hello-world/hello_world/hello_enclave.cc"
      ],
      [
       "ALLOW",
-      "asylo-hello-world/hello.proto"
+      "asylo-hello-world/hello_world/hello.proto"
      ],
      [
       "DISALLOW",
@@ -130,7 +146,7 @@
     ],
     "name": "modify",
     "pubkeys": [
-     "f30540982dd9651f633fa15758d40b6d0612eb44063d2cc9bc4f8a37182c5334"
+     "e9f11a933f12964b8f6d015f8527afc45455b227b55f74094ee177e3e136b6f8"
     ],
     "threshold": 1
    },
@@ -147,7 +163,7 @@
     "expected_materials": [
      [
       "MATCH",
-      "asylo-hello-world/*",
+      "asylo-hello-world/hello_world/*",
       "WITH",
       "PRODUCTS",
       "FROM",
@@ -166,7 +182,7 @@
     ],
     "name": "build_and_push",
     "pubkeys": [
-     "38b49183b9a499a5e31f09fbe989ff5fc598d0c0041a02965bd0e515ca3ec9a1"
+     "def9261ba14509c324570ce35d6f590729af9355f5d72c80598bb2076f632706"
     ],
     "threshold": 1
    },

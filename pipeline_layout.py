@@ -37,15 +37,11 @@ step_clone.set_expected_command_from_string(
     "git clone https://github.com/misaelvf2/asylo-hello-world.git")
 
 # Specify rules for files expected to be created as result of this step.
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/*")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/BUILD")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_driver.cc")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_enclave.cc")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello.proto")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/Dockerfile.kaniko")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/Dockerfile")
-# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/WORKSPACE")
-# step_clone.add_product_rule_from_string("DISALLOW *")
+step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/BUILD")
+step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_driver.cc")
+step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_enclave.cc")
+step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello.proto")
+step_clone.add_product_rule_from_string("DISALLOW *")
 
 # Developer may carry out any number of commands when modifying source code.
 # These will be captured with the 'in-toto-record' command.
@@ -56,15 +52,15 @@ step_modify.pubkeys = [developer_pubkey["keyid"]]
 # Here we specify that the developer should be operating on the files
 # that were the product of the previous 'clone' step.
 step_modify.add_material_rule_from_string(
-    "MATCH asylo-hello-world/* WITH PRODUCTS FROM clone")
+    "MATCH asylo-hello-world/hello_world/* WITH PRODUCTS FROM clone")
 step_modify.add_material_rule_from_string("DISALLOW *")
 
 # Specify rules for files expected to be created as result of this step.
 # Files will be modified versions of files that were the product of the 'clone' step.
-step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/BUILD")
-step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello_driver.cc")
-step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello_enclave.cc")
-step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello.proto")
+step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello_world/BUILD")
+step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello_world/hello_driver.cc")
+step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello_world/hello_enclave.cc")
+step_modify.add_product_rule_from_string("ALLOW asylo-hello-world/hello_world/hello.proto")
 step_modify.add_product_rule_from_string("DISALLOW *")
 
 # The build & push Service Account will carry out the build & push
@@ -78,7 +74,7 @@ step_build_and_push.set_expected_command_from_string("executor --skip-tls-verify
 
 # Expected materials are products from the 'modify' step.
 step_build_and_push.add_material_rule_from_string(
-    "MATCH asylo-hello-world/* WITH PRODUCTS FROM modify")
+    "MATCH asylo-hello-world/hello_world/* WITH PRODUCTS FROM modify")
 step_build_and_push.add_material_rule_from_string("DISALLOW *")
 
 # No expected products from this step.
@@ -102,7 +98,7 @@ inspection.add_material_rule_from_string(
 
 # Product should match product from 'modify' step.
 inspection.add_product_rule_from_string(
-    "MATCH asylo-hello-world/* WITH PRODUCTS FROM modify")
+    "MATCH asylo-hello-world/hello_world/* WITH PRODUCTS FROM modify")
 
 # Add steps and inspections to layout
 layout.steps = [step_clone, step_modify, step_build_and_push, step_package]
