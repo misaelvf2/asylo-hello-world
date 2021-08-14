@@ -1,0 +1,68 @@
+{
+ "signatures": [
+  {
+   "keyid": "d44df873c5264dbbd8dd38029d80f892dd132fd64be37fde52083c44117a7a2a",
+   "sig": "1f3305c4a8a960d1e38c810ca379e36958b2bad7c7c6526f9dec4b90aa875f892455bf3304a4bfd79ae9d6083917d1d7cb34cb8c8dd3e48678ac07796ada1cb772901c7d81d2da4c0ce5d584a99063d180bca7066765cad00d026826030308ea3b0a845f1705170c19a40eb5191d65b4d28cd664b3a40882f14c4649e2f7f4ef6e29cef985f2434b2b8c8219ceef27bf9ab0c95eba338630bd8cda978a781c164f0ab3b1bc164a3d491871a3f0136f8845f4be32941292781225038b07e59875297663ea241b97d73e9aa196ccaa720cf6a2a4b2548b86a3921a2ef762d2da1da2fcf8c2ad86b24bf5ac8131c3e4da467be1fecb5bb22d21cef193f2a8999411e5dbee86e305cf4b7df5ce9338aec61f7144d363bec7fccf43db56e410b50f89249d4fd28a87e63c6fcd22c972f4600aa3f73b7c83b579aabdca87ea052f0e117dca95673edaf72c64f73a4c378409b9bf9847be4a65feb704d463ac57e88dd2e41a5ee50732927851680eff691b6701dd014439391b540972dccebf493de97a"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {
+   "return-value": 0,
+   "stderr": "",
+   "stdout": ""
+  },
+  "command": [
+   "git",
+   "clone",
+   "https://github.com/misaelvf2/asylo-hello-world.git"
+  ],
+  "environment": {},
+  "materials": {},
+  "name": "clone",
+  "products": {
+   "asylo-hello-world/.bazelrc": {
+    "sha256": "7ee770c63c14d5466e5d786ac2019c82ef7ddf2cab34ba01d06a5adf27785579"
+   },
+   "asylo-hello-world/.gitignore": {
+    "sha256": "dd5a4b847512340f23bd0eb37b633f35fe0a799424c937e0df7f76bf1cfaff0e"
+   },
+   "asylo-hello-world/.in_totorc": {
+    "sha256": "fa2d1e7c028a8b4bd1d1bb93299fd23a00ffbc82ff31562348fb3938132b7be5"
+   },
+   "asylo-hello-world/WORKSPACE": {
+    "sha256": "650b69355a24dfc3710bc057f9b6d3027fb72f46d61d89c5fe3e8149e94295b6"
+   },
+   "asylo-hello-world/build_and_push": {
+    "sha256": "09ef9c5d09e04f138976599fc69814c676a1dc63a9c2c4b72e817eb8f18d25cb"
+   },
+   "asylo-hello-world/developer": {
+    "sha256": "b94249b706197f1b774eb1082dd4dd961bd78fe20e55e85a3338414567cc907e"
+   },
+   "asylo-hello-world/hello_world/BUILD": {
+    "sha256": "8426f49f022a62927ae482ce64f2ae32fa3f9741b234043e93b7d4419f2ce5a6"
+   },
+   "asylo-hello-world/hello_world/hello.proto": {
+    "sha256": "dd12674cf018963b957af7b8b5b802f834ea369d7c8c584fd0c81fa442e2180e"
+   },
+   "asylo-hello-world/hello_world/hello_driver.cc": {
+    "sha256": "0dca6d3a5d0c49012ddd97e2e483a5f466fc327ae8d7f4c7c7ac56f30fdf220c"
+   },
+   "asylo-hello-world/hello_world/hello_enclave.cc": {
+    "sha256": "affc8b112e83f8fcdf62ec5869a91a6fe100adc09a0f4815a9e2291bafe35907"
+   },
+   "asylo-hello-world/owner.pub": {
+    "sha256": "5561c2a5cf5be363a2d253393607d6aeaf267cc462c6c6ac3eefa49dedfb09ab"
+   },
+   "asylo-hello-world/pipeline_layout.py": {
+    "sha256": "03eb6309d02878ddf8c95989077ba43c1c1b698337c90a792dee028da98f38d5"
+   },
+   "asylo-hello-world/pod.yaml": {
+    "sha256": "8f2725c569b72b3dd5a53476b2036c6439a647ac32d2e7cf0ed1fe333d2b0d75"
+   },
+   "asylo-hello-world/root.layout": {
+    "sha256": "5d95233256dfacb44a6dfa6a91066b0208d073ed2dfc9004bd968ab58cb813e1"
+   }
+  }
+ }
+}
