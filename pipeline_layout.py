@@ -97,15 +97,15 @@ step_package.add_product_rule_from_string("DISALLOW *")
 # Need to untar file as first step in inspection.
 inspection = Inspection(name="untar")
 
-inspection.set_run_from_string("tar xzf asylo-hello-world.tar.gz")
+# inspection.set_run_from_string("tar xzf asylo-hello-world.tar.gz")
 
 # Material should match product from 'package' step.
-inspection.add_material_rule_from_string(
-    "MATCH asylo-hello-world.tar.gz WITH PRODUCTS FROM package")
+# inspection.add_material_rule_from_string(
+#     "MATCH asylo-hello-world.tar.gz WITH PRODUCTS FROM package")
 
 # Product should match product from 'modify' step.
-inspection.add_product_rule_from_string(
-    "MATCH asylo-hello-world/hello_world/* WITH PRODUCTS FROM modify")
+# inspection.add_product_rule_from_string(
+#     "MATCH asylo-hello-world/hello_world/* WITH PRODUCTS FROM modify")
 
 # Add steps and inspections to layout
 layout.steps = [step_clone, step_modify, step_build_and_push, step_package]
