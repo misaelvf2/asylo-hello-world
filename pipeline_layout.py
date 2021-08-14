@@ -37,13 +37,15 @@ step_clone.set_expected_command_from_string(
     "git clone https://github.com/misaelvf2/asylo-hello-world.git")
 
 # Specify rules for files expected to be created as result of this step.
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/BUILD")
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_driver.cc")
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_enclave.cc")
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello.proto")
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/Dockerfile.kaniko")
-step_clone.add_product_rule_from_string("CREATE asylo-hello-world/Dockerfile")
-step_clone.add_product_rule_from_string("DISALLOW *")
+step_clone.add_product_rule_from_string("CREATE asylo-hello-world/*")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/BUILD")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_driver.cc")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_enclave.cc")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello.proto")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/Dockerfile.kaniko")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/Dockerfile")
+# step_clone.add_product_rule_from_string("CREATE asylo-hello-world/WORKSPACE")
+# step_clone.add_product_rule_from_string("DISALLOW *")
 
 # Developer may carry out any number of commands when modifying source code.
 # These will be captured with the 'in-toto-record' command.
