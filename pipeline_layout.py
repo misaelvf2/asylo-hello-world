@@ -41,7 +41,7 @@ step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/BU
 step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_driver.cc")
 step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello_enclave.cc")
 step_clone.add_product_rule_from_string("CREATE asylo-hello-world/hello_world/hello.proto")
-step_clone.add_product_rule_from_string("DISALLOW *")
+step_clone.add_product_rule_from_string("DISALLOW asylo-hello-world/hello_world/*")
 
 # Developer may carry out any number of commands when modifying source code.
 # These will be captured with the 'in-toto-record' command.
