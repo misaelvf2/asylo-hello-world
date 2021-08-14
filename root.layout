@@ -1,13 +1,13 @@
 {
  "signatures": [
   {
-   "keyid": "a80dd01299383b7fc6bebb84d0c1947f82950581fd7b73623ea55f978ca5523d",
-   "sig": "2671198fd702a45fee084392818a4f418bb2272e34c310c9de5c8298d3c3f6b4dc023f75c6f7cbb10b0d33c786f47da3d08f8bc530058cbf34dc111fc7f92d59afe5db9a47a2502d61b4795b2fabae62025bd1aa986433217b7187b3ad801c3f4967ac7cdc71081452207f73f5e2369f191e5062da372dd27ecd0952e5e18325f93bfdb8450ae0f966e5495c67892b1e61ab40e4ac8df25d11afd851bed86b35c2be8dd78ed4ea772923c94f21b6a98debecb69cce818611163507785dcdb24109a60601ceeef4756b0305c5feb1dd5b839b1045d9764acbac0138badc0916397d0252b17ef103a5891ae4fc93ee03e7b4decd95c784cd8e94a9c471bc881c5e92131de0b6cf0ddf514fa66bbce879939b50873558bf7d91585efacb2fea1e51438618ddb60434650e980247eb5d8b34de5e947c9ffaff8a9c6fd3f728f53945a07169aaae718e0ae66b7aa50b65f4620b461be1afc57a8901834816c05ca146cb5a22e336a7f7ec1f43062377b7771be51c694e5b6dd418d9a1bdccced76b95"
+   "keyid": "4c338ae8a7a353d906b52cf2f256243c78046a10545ce2b03535943548907bcd",
+   "sig": "177b377674535249983143e2c0c6a9ff8dabd567ff715d3766cd4c8762b4dabde66b640ba1f618b16dd2ae9064c617b843dfe551a9588e9c70ec8d2352ecfb704a28adc599297dfb985fecf0826fe153fc373ef55d48e7b05379891b7fffc6fc986e7133efc78ba2e1cfcec90b5caefeeb40172d72fe16e13d21cd99174cbb8166beabe9b4132d2df53c2623e0c0ffb9fa172f3d60d0da4bda8439913569926d8ba962cb249c49c7d8d5583160722c2bbf76648ca8df5f6eec208df0f0b1c61696030ea09b0d5983d948a561aaca9130e9d8993fb8dd29b13165ffbfdc474d500c2b588c3c139de06c0063d13b3e9dffd2cdc925c94ada104f59bb1758c0d80c646574eb824d8e5c413305679babca33543ab1932767715b04e7bcb4c4511cf21f2a49022a7a4d37f6ed3202f872232bac5748653dc038780685f3c30e01a03388a46977fa18d16f33c373c176d943b5587d11209aad07349e306d85958c9d0b3f378d51bbc9823b37ccbeccc58c5e4e39d0dc408b0011c136697fbe4bef159a"
   }
  ],
  "signed": {
   "_type": "layout",
-  "expires": "2021-12-14T16:23:54Z",
+  "expires": "2021-12-14T16:38:33Z",
   "inspect": [
    {
     "_type": "inspection",
@@ -40,8 +40,8 @@
    }
   ],
   "keys": {
-   "dfec5a6994519d7f66c78f1a38e463ad0541a4342e710eb588a6b69c7f8fcf39": {
-    "keyid": "dfec5a6994519d7f66c78f1a38e463ad0541a4342e710eb588a6b69c7f8fcf39",
+   "d8aefd09e7879276d0c30eb1cbf97d14060a7cbc1da77fa024e6cfa15e0e6763": {
+    "keyid": "d8aefd09e7879276d0c30eb1cbf97d14060a7cbc1da77fa024e6cfa15e0e6763",
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
@@ -49,12 +49,12 @@
     "keytype": "rsa",
     "keyval": {
      "private": "",
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA0qpjbLEN7ZZCHbLSQo+d\nr2JpI3ERHd+3d7ZxzyfhOlighHAmcfV3IX30ZZn92jGdcb1j9q7vzzbE/XhRuOOL\nrDRMEIAEIaeIkM72EuUDpOe5K6OLAsxCbopksFTS89v9wkRPfJcKC+ELACndoNY/\nPqMF/o5tTLE1OTd7Qj4ZZzr0xW87JDeKZuL/qXOZu80UjGE1hMUzjmfM/V+AIVjQ\nvOAwg1Bfj8HmvJG1rpMmbjPbxvP9ZZOzgBj8Bn8eaLip5u+RY8/6powMuleY8mIo\n8qYR35Eu4WLlmAv0AnZSPZ4Rhg8svmW3skSdRzz/ZcMSBtnTfnKELBVBkaeKxpOb\neJvEgPVzcq9zHA/VqXIhjyqUHhVaPjrzuzSYXhCl87V4lau+Y1cwGnIlwlf177gi\nRoNntzhghExmW5tiIW6hImNGLdui/z4n0b8ErRbaojZeA91sGRa31L1akHDT2hiA\n0JVLXx5F45vvdGpzr5wCc+dY4+JGywBrtp/Hjmw5hsIpAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAp5yjSsNSke/HssPMGZxy\nhcyS/MaY89/apYzTtBIVQxh0WrrqpEo6dPWpzUdssvK3jfs+zoFqQZDhUHpalQDO\nuVwgD8roZQJ7FRI/+kOOavLfYQA0cjZF7A4IaHCHhskfhqD/jThZA+DrljWxv+Hi\nfmKNY62ksMdu/XnDFBbzpEbKu4BSr/kSANOqBTPrkBVbPgF0l6GCxLdaH5WLlzNS\nQm4wuA9xXTdlX3qJ52B8LhRP/AvBsl9AjLwDWFuJZ0Mx0COMPJGv/xL9oCKEFcL4\nGwKk8GAwtafFYrtAUIb0zLorfo7f3XiXJYjXs+IWWqi1fKRgE5osZA4zDjlZiecB\n+Yi+EjHGeaPHJM8sXLslDRB77QCOvjyCt7L82tGzSs6gLG8VLRP40QXx0T+6wI/f\n39jss8d3F5Z514yN0PJPePHoielZd/SO9Tgu7NP/MBIrdW9arpuDu9qaAToA2tPI\nEKHvDyS5l1ZxVApVWShKSj3bPMAmgCgvatz7AGTHCcPXAgMBAAE=\n-----END PUBLIC KEY-----"
     },
     "scheme": "rsassa-pss-sha256"
    },
-   "e96c242fabe079b3b452f4c0d849e759bde448d210ab95e109214550972cb127": {
-    "keyid": "e96c242fabe079b3b452f4c0d849e759bde448d210ab95e109214550972cb127",
+   "ee50666517f3fdc680046552b506e1a53970b406c9a2adea609e2c11ea1c9487": {
+    "keyid": "ee50666517f3fdc680046552b506e1a53970b406c9a2adea609e2c11ea1c9487",
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
@@ -62,7 +62,7 @@
     "keytype": "rsa",
     "keyval": {
      "private": "",
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsAJ+PgRH5Gx5+FBVhjB5\nLfKj8i1J6tj07fXFz4Mm8LsF9nvzjwLCh5f+FloXx+JDORQ9EULryn6OVb99is+i\nqdQx4NvgT/M12NBBx7hNEQ7BTltFmhT6pcYkzRV54DVB+AgAsQBIzq1Bk4aXp07W\niFcb5amusesAKiL7S1Y1QiP3hzRy8nIriLoKwkh0ymVtROpjC7Srjmt1wWAo+5u1\nz78Ka+GViG7MB3gMHL4OmrxV6boGotyQSAC8aAhIqK5zCcKjFFddSPsmNAbDseM2\nvqUmJSpNYaPys4eljGScFkwOPdsSDAHagoJ4fP3SbjXcndb3hPLyitrkHmmLb8rf\nQB4aht+HKxWcnqhLVx1pegBmQGrdz0CPkkrkazbSCPupgk0ldxojop0EjqYzSvdw\nVG0AiT3vtJNPYN8QPS3vTIdyDZTQti0Dwp0L2qt3nKWi4KAW8KlLu7fqfpohjRGq\nR3Z6R+xcTfpPVl1O3LUffWO6dP6mclW1BZLHQrqqMU/tAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA09mQpkem/0v8Q9h6deVO\nFyo4rS+lFupGbMvbLdjkfk4w1SYggED8bntaNeiQq9peMRJMPlZ6izFwD1pw+kx+\nNz0CsqXN7Os85NWrbYw2aJY9u5cswrgH+VAHOWi/QuDjSvjtQX7Qyxim0GzRcEBR\nAzpmTuxJSMtx0CFKOudz+3IwntKCf3aaM7S6g1eFCV7CSzqajKtUWAW3hX5ALwkw\n3RC4ohlFJYVy5XQHwtL0i3kovwa+/tCcKPdSE8pZ4+dmiggMAmBxpZIDKc4ZuFSk\nj0Ed8gZZWotLQF9myxNc6/VSlHzx1zSNhtpaC3LcC6zmj1rHC4dXXe7EcUOITe/B\nqP6wDlFXF4NGockjJfXIzCbQz+DTq99hw9fezHa3u257IbmEVSPkH+A71Ufd70iS\nqvdoyOgFlwE7zwcQlIGm+W1MgkxMFHe92+9bv538qPPeGanylrQsTPExEh5z7vVZ\nODj2oSUpTar2o1u2sF9wEClaDuzr8/Z3zOMc6tFQJVrLAgMBAAE=\n-----END PUBLIC KEY-----"
     },
     "scheme": "rsassa-pss-sha256"
    }
@@ -101,7 +101,7 @@
     ],
     "name": "clone",
     "pubkeys": [
-     "dfec5a6994519d7f66c78f1a38e463ad0541a4342e710eb588a6b69c7f8fcf39"
+     "d8aefd09e7879276d0c30eb1cbf97d14060a7cbc1da77fa024e6cfa15e0e6763"
     ],
     "threshold": 1
    },
@@ -119,7 +119,7 @@
      ],
      [
       "DISALLOW",
-      "*"
+      "asylo-hello-world/hello_world/*"
      ]
     ],
     "expected_products": [
@@ -141,12 +141,12 @@
      ],
      [
       "DISALLOW",
-      "*"
+      "asylo-hello-world/hello_world/*"
      ]
     ],
     "name": "modify",
     "pubkeys": [
-     "dfec5a6994519d7f66c78f1a38e463ad0541a4342e710eb588a6b69c7f8fcf39"
+     "d8aefd09e7879276d0c30eb1cbf97d14060a7cbc1da77fa024e6cfa15e0e6763"
     ],
     "threshold": 1
    },
@@ -171,18 +171,18 @@
      ],
      [
       "DISALLOW",
-      "*"
+      "asylo-hello-world/hello_world/*"
      ]
     ],
     "expected_products": [
      [
       "DISALLOW",
-      "*"
+      "asylo-hello-world/hello_world/*"
      ]
     ],
     "name": "build_and_push",
     "pubkeys": [
-     "e96c242fabe079b3b452f4c0d849e759bde448d210ab95e109214550972cb127"
+     "ee50666517f3fdc680046552b506e1a53970b406c9a2adea609e2c11ea1c9487"
     ],
     "threshold": 1
    },
@@ -196,11 +196,33 @@
      "asylo-hello-world.tar.gz",
      "asylo-hello-world"
     ],
-    "expected_materials": [],
-    "expected_products": [],
+    "expected_materials": [
+     [
+      "MATCH",
+      "asylo-hello-world/hello_world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "modify"
+     ],
+     [
+      "DISALLOW",
+      "asylo-hello-world/hello_world/*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "CREATE",
+      "asylo-hello-world.tar.gz"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
     "name": "package",
     "pubkeys": [
-     "e96c242fabe079b3b452f4c0d849e759bde448d210ab95e109214550972cb127"
+     "ee50666517f3fdc680046552b506e1a53970b406c9a2adea609e2c11ea1c9487"
     ],
     "threshold": 1
    }
