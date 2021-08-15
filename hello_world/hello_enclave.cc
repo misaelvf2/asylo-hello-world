@@ -25,7 +25,7 @@ class HelloApplication : public asylo::TrustedApplication {
       LOG(INFO) << "Incrementing visitor count...";
       output->MutableExtension(hello_world::enclave_output_hello)
           ->set_greeting_message(
-              absl::StrCat("Hello ", visitor, ! You are visitor #",
+              absl::StrCat("Hello ", visitor, !! You are visitor #",
                            ++visitor_count_, " to this enclave."));
     }
     return absl::OkStatus();
